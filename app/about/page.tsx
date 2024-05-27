@@ -26,17 +26,14 @@ const About = () => {
 
                 <Paragraph
                     text="I'm a Frontend Developer based in Brazil, specifically in Santa Cruz do Sul, Rio Grande do Sul. I have a passion for creating beautiful and functional websites."
-                    spanStyle="text-sm text-justify text-gray-500"
                 />
 
                 <Paragraph
                     text="I have some experience with React, Next.js, Tailwind CSS, and other technologies. I'm always looking to learn new things and improve my skills. I'm currently studying TypeScript and Node.js."
-                    spanStyle="text-sm text-justify text-gray-500"
                 />
 
                 <Paragraph
                     text="Currently, I'm working on personal projects and looking for new opportunities. I'm open to freelance work and job offers. Feel free to contact me if you have any questions or want to work with me."
-                    spanStyle="text-sm text-justify text-gray-500"
                 />
 
             </section>

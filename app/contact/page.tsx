@@ -19,7 +19,6 @@ const Projects = () => {
 
                 <Paragraph
                     text="Here are some of my contacts. Feel free to reach out to me if you have any questions or want to work with me."
-                    spanStyle="text-sm text-justify text-gray-500"
                 />
 
             </section>
