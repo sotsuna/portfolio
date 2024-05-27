@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Paragraph from "@/components/Paragraph";
+import Card from "@/components/Card";
 
 const Projects = () => {
     return (
@@ -21,6 +22,24 @@ const Projects = () => {
                     spanStyle="text-sm text-justify text-gray-500"
                 />
 
+            </section>
+
+            <section className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+
+                <Card
+                    title="Email"
+                    description="This is my email address: mkist202@gmail.com"
+                />
+            </section>
+
+            
+            <section className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+
+                <Card
+                    title="Instagram"
+                    description="This is my Instagram: @marco.kistt"
+                />
+                
             </section>
         </div>
     );
