@@ -8,7 +8,7 @@ const Button = ({ text, route }: ButtonProps) => {
     return (
         <div>
             <Link href={route}>
-            <button className="p-[4px] relative font-JetBrains_Mono">
+            <button className="w-40 p-[4px] relative font-JetBrains_Mono">
                 <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
                 <div className="bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
                     {text}
